@@ -1,7 +1,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Lateef', cursive;
   height:100%;
 }
 
@@ -21,6 +20,23 @@ body{
 	height:100%;
 }
 
+/*<--FullScreen-->*/
+
+#name{
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Neuton', serif;
+  color: #132615;
+  padding-top: 100px;
+
+}
+
+#snipet{
+  text-align: center;
+  font-size:36px;
+  font-family: 'Neuton', serif;
+  color: #132615;
+}
 
 
 .fullscreen {
@@ -48,6 +64,7 @@ p {
 	font-size: 24px;
 	font-family: 'Neuton', serif;
 	line-height: 40px;
+  color: #132615;
 }
 
 #big_letter {
