@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lateef', cursive;
+  height:100%;
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+}
+
+body{
+	height:100%;
+}
+
+
+
+.fullscreen {
+  height: 100%;
+  width: 100%;
+  background: url('../images/toisan.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+}
+
+
+/*<--About Me -->*/
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+
+p {
+	font-size: 24px;
+	font-family: 'Neuton', serif;
+	line-height: 40px;
+}
+
+#big_letter {
+	font-size:72px;
+}
+
+/*<--line-->*/
+
+.line{
+	max-width: 100px;
+	border-top: 1px solid black;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+/*<--Footer-->*/
+
+.contact{
+	padding-bottom: 50px;
+}
+
+.container-contact{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+h3{
+	font-family: 'Neuton', serif;
+	font-size: 10px;
+	text-align: center;
+}
+
+
+h4{
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Neuton', serif;
+}
