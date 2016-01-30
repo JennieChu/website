@@ -9,18 +9,26 @@ html, body {
     text-align: center;
   }
 
-  .nav li {
-    text-align: center;
-    width: 100%;
-  }
-
 }
 /*<--Navigation-->*/
+
+.nav a{
+  color:#132615;
+}
+
+.nav a:hover{
+  text-decoration: none;
+  color: #1B1726;
+}
+
 
 .nav li{
   display:inline-block;
   float: right;
   padding: 0 15px 0 15px;
+  font-size: 20px;
+  color: white;
+
 }
 
 /*<--FullScreen-->*/
