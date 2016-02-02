@@ -19,9 +19,10 @@
 .nav li{
   display:inline-block;
   float: right;
-  padding: 0 15px 0 15px;
+  padding: 0 15px 0px 15px;
   font-size: 20px;
   color: white;
+  font-family: 'Neuton', serif;
 
 }
 
@@ -147,11 +148,64 @@ h4{
 
 /*<------------Photos HTML------------>*/
 
+.photos .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  border-top: 0.5px solid black;
+}
+
+.heading{
+  text-align: center;
+  padding: 20px 0;
+}
 
 
+.heading h1{
+  font-family:'Neuton', serif;
+  font-size: 45px;
+}
 
 
+.photos h1{
+  font-family:'Neuton', serif;
+  font-size: 28px;
+  text-align: center;
 
+
+}
+
+.photos .location{
+  color: #50B29A;
+  padding-top: 30px;
+}
+
+.photos .date{
+  color: #B25335;
+}
+
+
+.photo {
+  height:auto;
+  width:auto;
+  max-width: 400px;
+  max-height: 420px;
+  padding: 10px 0 10px 0;
+  display:block;
+  margin:auto;
+}
+
+.tobecontinued{
+  text-align: center;
+  color: #50B29A;
+  padding-top: 50px;
+}
+
+.tobecontinued h1{
+  color: #50B29A;
+  font-size: 36px;
+}
 
 html, body {
   margin: 0;
