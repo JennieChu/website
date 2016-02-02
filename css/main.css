@@ -130,8 +130,17 @@ h4{
 
 /*<------------Work HTML------------>*/
 
+.coming-soon{
+  text-align: center;
+  padding-top: 150px;
+  background-color: #D8A497;
+  font-family:'Neuton', serif;
+  height: 100%;
+  width: 100%;
+}
 .coming-soon h1{
   color:#72223C;
+  font-size: 75px;
 
 }
 
