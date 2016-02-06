@@ -11,6 +11,7 @@
 
 .nav a:hover{
   text-decoration: none;
+
   color: #72223C;
   border-bottom: 3px solid #72223C;
 }
@@ -216,6 +217,25 @@ h4{
   color: #50B29A;
   font-size: 36px;
 }
+
+
+/*<--Work Html-->*/
+
+.work h1{
+
+  font-family:'Neuton', serif;
+}
+
+.work h2{
+  font-size: 20px;
+  font-family:'Neuton', serif;
+}
+
+
+
+
+
+
 
 html, body {
   margin: 0;
