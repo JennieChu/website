@@ -221,21 +221,50 @@ h4{
 
 /*<--Work Html-->*/
 
-.work h1{
+.portfolio{
+  background-color: #D8FFD3;
+}
 
+#stc{
+  height:auto;
+  width:auto;
+  max-width: 350px;
+  max-height: 370px;
+  display:block;
+  margin:auto;
+}
+
+.work h1, h2, h3, h4, h5{
   font-family:'Neuton', serif;
+}
+.work h1{
+  color: #B25353; 
 }
 
 .work h2{
   font-size: 20px;
-  font-family:'Neuton', serif;
+  color:#51616A;
 }
 
+.portfolio h3{
+  font-size: 30px;
+  padding: 5px 0;
+  color: #B25353;
+}
 
+.portfolio h4{
+  color: #51616A;
+  padding: 5px 0;
+  text-decoration: underline;
+}
 
-
-
-
+.portfolio h5{
+  color: #51616A;
+  font-size: 18px;
+  padding-top: 5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 html, body {
   margin: 0;
