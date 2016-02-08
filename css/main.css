@@ -255,7 +255,7 @@ h4{
 .portfolio h4{
   color: #51616A;
   padding: 5px 0;
-  text-decoration: underline;
+  font-style: italic;
 }
 
 .portfolio h5{
