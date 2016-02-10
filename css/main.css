@@ -165,7 +165,7 @@ h4{
 
 .heading{
   text-align: center;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 
 .heading .nav {
@@ -175,7 +175,7 @@ h4{
 
 .heading h1{
   font-family:'Neuton', serif;
-  font-size: 45px;
+  font-size: 36px;
 }
 
 
@@ -228,11 +228,11 @@ h4{
 .work h1, h2, h3, h4, h5{
   font-family:'Neuton', serif;
 }
-.work h1{
+.title{
   color: #B25353; 
 }
 
-.work h2{
+.phrase{
   font-size: 20px;
   color:#51616A;
 }
